@@ -1,0 +1,68 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+$menu-item-color:#cfcdcd;
+$menu-item-radius:0px;
+$menu-item-hover-color:#ffffff;
+$menu-item-hover-background-color:#50646d;
+$menu-item-active-color:#ffffff;
+$menu-item-active-background-color:#50646d;
+$menu-list-border-left:0px;
+$menu-label-color:#7c7c7c;
+
+// Variables
+@import "bulma";
+
+@import "node_modules/font-awesome/css/font-awesome";
+
+.p-t-f {
+    padding-top: 0px;
+}
+
+.p-r-f {
+    padding-right: 0px;
+}
+
+.p-l-f {
+    padding-left: 0px;
+}
+
+.notification.is-flash {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    z-index: 1;
+}
+
+.phpdebugbar-body {
+    min-height:200px;
+}
+
+.page {
+    .sidebar {
+        background-color: #222d32;
+        border-right: 1px solid gray;
+        padding-top: 0px;
+        .menu {
+            padding-top: 25px;
+            .menu-label {
+                padding-left: 10px;
+            }
+        }
+    }
+    .page-content {
+        background-color: #ecf0f5;
+        min-height: 100vh;
+        padding: 1rem;
+    }
+}
+
+.level.quick-actions {
+    .level-item {
+        font-size: small;
+    }
+    .level-left .level-item:not(:last-child), .level-right .level-item:not(:last-child) {
+        margin-right: 0.20rem;
+    }
+}
